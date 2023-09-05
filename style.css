@@ -74,7 +74,8 @@
     .header.primary .header-inner-logo-img img {
       content: url("/img/logo-primary.svg"); }
   .header.primary .header-inner-container {
-    border-bottom: 1px solid #C6D4E1; }
+    border-bottom: 1px solid #C6D4E1;
+    gap: 112px; }
     .header.primary .header-inner-container-title {
       color: #0F3C73; }
     .header.primary .header-inner-container-menu .menu-item {
@@ -82,6 +83,10 @@
       .header.primary .header-inner-container-menu .menu-item:hover {
         transition: all 0.2s;
         border-bottom: 2px solid #AC1422; }
+    .header.primary .header-inner-container-settings .btns {
+      display: block; }
+      .header.primary .header-inner-container-settings .btns .btn {
+        height: 48px; }
     .header.primary .header-inner-container-settings .glas-img {
       content: url("/img/mdi_eye_primary.svg"); }
       .header.primary .header-inner-container-settings .glas-img:hover {
@@ -207,6 +212,8 @@
           flex-direction: row;
           align-items: center;
           gap: 39px; }
+          .header-inner-container-settings .setting .btns {
+            display: none; }
           .header-inner-container-settings .setting .glas-img {
             display: flex;
             flex-direction: row;
@@ -262,6 +269,12 @@
         .header-inner-container-settings .sub-menu {
           display: none; }
 
+@media (max-width: 1440px) {
+  .header {
+    padding: 0 24px; }
+    .header-inner-container {
+      gap: 40px !important; } }
+
 @media (max-width: 1280px) {
   .header {
     padding: 0 24px; }
@@ -302,6 +315,10 @@
               transition: all 0.2s;
               content: url("/img/Hamburger_LG_Hover.svg"); } }
 
+@media (max-width: 900px) {
+  .header-inner-container {
+    gap: unset !important; } }
+
 @media (max-width: 450px) {
   .header {
     padding: 0 40px; }
@@ -310,7 +327,7 @@
     .header-inner {
       grid-column: span 4; }
       .header-inner-container {
-        gap: unset; }
+        gap: unset !important; }
         .header-inner-container-settings .setting {
           display: none; } }
 
@@ -651,7 +668,7 @@
                 width: 20px;
                 /* Задать значение расстояния */ }
         .main-container.base-container .main-container-wrapper .main-container-inner .ul-columns {
-          margin-top: 72px;
+          margin-top: 24px;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
@@ -1304,15 +1321,17 @@
       gap: 80px; } }
 
 @media (max-width: 1024px) {
-  .footer-wrapper {
-    grid-template-columns: repeat(12, minmax(34px, 64px)); }
-  .footer-inner {
-    grid-column: span 12;
-    gap: 60px; } }
+  .footer {
+    padding: 0 15px; }
+    .footer-wrapper {
+      grid-template-columns: repeat(12, minmax(34px, 64px)); }
+    .footer-inner {
+      grid-column: span 12;
+      gap: 60px; } }
 
 @media (max-width: 450px) {
   .footer {
-    padding: 0 12px; }
+    padding: 0 8px; }
     .footer-wrapper {
       grid-template-columns: repeat(4, minmax(50px, 92px)); }
     .footer-inner {
