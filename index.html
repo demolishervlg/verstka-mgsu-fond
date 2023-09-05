@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Фонд целевого капитала МГСУ</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="all">
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-inner">
+                <div class="header-inner-logo">
+                    <div class="header-inner-logo-img">
+                        <img src="img/logo.svg" alt="МГСУ">
+                    </div>
+                </div>
+                <div class="header-inner-container">
+                    <div class="header-inner-container-title">
+                        Эндаумент фонд
+                    </div>
+                    <div class="header-inner-wrapper">
+                        <div class="header-inner-container-menu">
+                            <nav>
+                                <ul class="menu-items">
+                                    <li class="menu-item">О фонде</li>
+                                    <li class="menu-item">Попечители</li>
+                                    <li class="menu-item">Новости</li>
+                                    <li class="menu-item">Проекты</li>
+                                    <li class="menu-item">Контакты</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-inner-container-settings">
+                            <div class="setting">
+                                <div class="glas">
+                                    <div class="glas-img">
+                                        <img src="img/mdi_eye.svg" alt="МГСУ">
+                                    </div>
+                                </div>
+                                <div class="lang">
+                                    <div class="dropdown">
+                                        <div class="dropbtn">
+                                            Ru
+                                            <div class="arrow">
+                                                <img src="img/Caret_Down_SM.svg">
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-content">
+                                            <a href="#">Ru</a>
+                                            <a href="#">En</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-menu">
+                                <a class="sub-menu-btn" onclick="openNav()"><img src="img/Hamburger_LG.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="main-inner">
+                <div class="main-container index-container" style="background-image: linear-gradient(180deg, #0F3C73 0%, rgba(15, 60, 115, 0.80) 40.27%), url('img/index-zal.png')">
+                    <div class="main-container-wrapper">
+                        <div class="text-container">
+                            <div class="text-title">
+                                Фонд целевого капитала МГСУ
+                            </div>
+                            <div class="text-sub">
+                                Участие в устойчивом долгосрочном социальном и экономическом развитие МГСУ за счет поддержки наиболее талантливой молодежи, проявляющей себя в области науки, образования и общественной деятельности
+                            </div>
+                            <div class="text-btn">
+                                <a class="btn negative" href="#">Сделать вклад</a>
+                            </div>
+                        </div>
+                        <div class="pie animate white" style="--p:75;--c:#FFFFFF;--b:16px; --w:268px ">
+                            <span class="big">138</span>
+                            <span>млн. рублей <br> собрано</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container activity">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-title">Показатели деятельности</div>
+                        <div class="main-container-inner">
+                             <div class="activity-items">
+                                 <div class="activity-item">
+                                     <div class="pie animate" style="--p:75;--c:#0F3C73;--b:16px; --w:192px ">
+                                         <span class="big">1265</span>
+                                         <span>человек</span>
+                                     </div>
+                                     <div class="text">
+                                         число благотворитлей
+                                     </div>
+                                     <div class="icon">
+                                         <img src="img/activity-rub.svg">
+                                     </div>
+                                 </div>
+                                 <div class="activity-item">
+                                     <div class="pie animate" style="--p:65;--c:#0F3C73;--b:16px; --w:192px ">
+                                         <span class="big">1265</span>
+                                         <span>человек</span>
+                                     </div>
+                                     <div class="text">
+                                         проектов поддержано
+                                     </div>
+                                     <div class="icon">
+                                         <img src="img/activity-rub.svg">
+                                     </div>
+                                 </div>
+                                 <div class="activity-item">
+                                     <div class="pie animate" style="--p:89;--c:#0F3C73;--b:16px; --w:192px ">
+                                         <span class="big">1265</span>
+                                         <span>человек</span>
+                                     </div>
+                                     <div class="text">
+                                         передано в МГСУ
+                                     </div>
+                                     <div class="icon">
+                                         <img src="img/activity-rub.svg">
+                                     </div>
+                                 </div>
+                                 <div class="activity-item">
+                                     <div class="pie animate" style="--p:100;--c:#0F3C73;--b:16px; --w:192px ">
+                                         <span class="big">1265</span>
+                                         <span>человек</span>
+                                     </div>
+                                     <div class="text">
+                                         доход фонда за 8 лет
+                                     </div>
+                                     <div class="icon">
+                                         <img src="img/activity-rub.svg">
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container projects">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-title">Наши проекты</div>
+                        <div class="main-container-inner">
+                            <div class="swiper swiper-project">
+                                <div class="swiper-wrapper project-items">
+                                    <div class="swiper-slide project-item big" style="--path: url('img/project1.png');">
+                                        <div class="title">
+                                            Поддержка деятельности сообщетва выпускников
+                                        </div>
+                                        <div class="wrap">
+                                            <a href="#" class="btn negative">Сделать вклад</a>
+                                            <div class="pie animate no-round white" style="--p:75;--c:#FFFFFF;--b:16px; --w:84px">
+                                                <span class="big">89</span>
+                                                <span>%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide project-item" style="--path: url('img/project2.png');">
+                                        <div class="title">
+                                            Поддержка культурных, патриотических и творческих программ
+                                        </div>
+                                        <div class="wrap">
+                                            <a href="#" class="btn negative">Сделать вклад</a>
+                                            <div class="pie animate no-round white" style="--p:75;--c:#FFFFFF;--b:16px; --w:84px">
+                                                <span class="big">73</span>
+                                                <span>%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide project-item" style="--path: url('img/project2.png')";>
+                                        <div class="title">
+                                            Конкурс преподаватель года
+                                        </div>
+                                        <div class="wrap">
+                                            <a href="#" class="btn negative">Сделать вклад</a>
+                                            <div class="pie animate no-round white" style="--p:75;--c:#FFFFFF;--b:16px; --w:84px">
+                                                <span class="big">30</span>
+                                                <span>%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide project-item" style="--path: url('img/project2.png')";>
+                                        <div class="title">
+                                            Конкурс преподаватель года
+                                        </div>
+                                        <div class="wrap">
+                                            <a href="#" class="btn negative">Сделать вклад</a>
+                                            <div class="pie animate no-round white" style="--p:75;--c:#FFFFFF;--b:16px; --w:84px">
+                                                <span class="big">30</span>
+                                                <span>%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <a href="3" class="btn btn-transparent-radius">Все проекты</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container managements">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-title">Руководство фонда</div>
+                        <div class="main-container-inner">
+                            <div class="swiper swiper-management">
+                                <div class="swiper-wrapper management-items">
+                                    <div class="swiper-slide management-item">
+                                        <div class="img">
+                                            <img src="img/boss2.png" alt="Файзуллин Ирек Энварович">
+                                        </div>
+                                        <div class="text">
+                                            <div class="text-title">
+                                                Хуснуллин Марат Шакирзянович
+                                            </div>
+                                            <div class="text-sub">
+                                                <p>Заместитель Председателя Правительства Российской Федерации</p>
+                                                <p>Председатель Попечительского совета</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide management-item">
+                                        <div class="img">
+                                            <img src="img/boss3.png" alt="Файзуллин Ирек Энварович">
+                                        </div>
+                                        <div class="text">
+                                            <div class="text-title">
+                                                Орешкин Максим Станиславович
+                                            </div>
+                                            <div class="text-sub">
+                                                <p>Помощник Президента Российской Федерации</p>
+                                                <p>Заместитель председателя Попечительского совета</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide management-item">
+                                        <div class="img">
+                                            <img src="img/boss1.svg" alt="Файзуллин Ирек Энварович">
+                                        </div>
+                                        <div class="text">
+                                            <div class="text-title">
+                                                Файзуллин Ирек Энварович
+                                            </div>
+                                            <div class="text-sub">
+                                                <p>Министр строительства и жилищно-коммунального хозяйства Российской Федерации</p>
+                                                <p>Заместитель председателя Попечительского совета</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide management-item">
+                                        <div class="img">
+                                            <img src="img/boss3.png" alt="Файзуллин Ирек Энварович">
+                                        </div>
+                                        <div class="text">
+                                            <div class="text-title">
+                                                Орешкин Максим Станиславович
+                                            </div>
+                                            <div class="text-sub">
+                                                <p>Помощник Президента Российской Федерации</p>
+                                                <p>Заместитель председателя Попечительского совета</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <a href="3" class="btn btn-transparent-radius">Все участники Попечительского совета</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container news">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-title">Наши новости</div>
+                        <div class="main-container-inner">
+                            <div class="swiper swiper-news">
+                                <div class="swiper-wrapper news-items">
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news1.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news2.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">С Днём Государственного флага Российской Федерации!</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news1.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news1.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news1.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-item">
+                                        <div class="title">
+                                            <div class="img">
+                                                <img src="img/news1.png" alt="НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ">
+                                            </div>
+                                            <div class="date">22.08.2023</div>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">НИУ МГСУ участвует в отечественном мегасайенс-проекте СКИФ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <a href="3" class="btn btn-transparent-radius hover-back">Все новости</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container trusteeship">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-inner">
+                            <div class="main-container-title">Попечительский совет</div>
+                            <p>
+                                Попечительский совет Московского государственного строительного университета (МГСУ) был учрежден в 2004 году при поддержке Правительства Москвы как организация, объединяющая на добровольной основе всех, кто заинтересован в решении актуальных задач развития МГСУ и формировании его как центра подготовки высококвалифицированных специалистов строительной отрасли.
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="img/circles.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container index-form">
+                    <div class="main-container-wrapper">
+                        <div class="main-container-inner">
+                            <form action="" class="form">
+                                <div class="form-title">
+                                    Напишите нам
+                                </div>
+                                <div class="form-fields">
+                                    <div class="form-fields-groups">
+                                        <div class="text-field">
+                                            <div class="text-field__label">Имя</div>
+                                            <input class="text-field__input" type="text" name="name" id="name">
+                                        </div>
+                                        <div class="text-field">
+                                            <div class="text-field__label">Фамилия</div>
+                                            <input class="text-field__input" type="text" name="name" id="lastname">
+                                        </div>
+                                        <div class="text-field">
+                                            <div class="text-field__label">Ваш телефон</div>
+                                            <input class="text-field__input" type="text" name="phone" id="phone">
+                                        </div>
+                                    </div>
+                                    <div class="form-fields-groups">
+                                        <div class="text-field">
+                                            <div class="text-field__label">Электронный адрес</div>
+                                            <input class="text-field__input" type="text" name="email" id="email">
+                                        </div>
+                                        <div class="text-field">
+                                            <div class="text-field__label">Ваш телефон</div>
+                                            <textarea class="text-field__area" name="phone" id="phone"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns">
+                                    <input type="submit" class="btn btn-transparent-radius" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <div class="footer-logo-img">
+                        <img src="img/footer-logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="copyright">
+                    <span>© 2023  Эндаумент фонд МГСУ</span>
+                    <span>При копировании информации и фотографий - ссылка на сайт Эндаумент фонд МГСУ обязательна.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+<script type="text/javascript" src="js/plugins/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
